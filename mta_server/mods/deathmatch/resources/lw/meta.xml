@@ -1,0 +1,21 @@
+<meta>
+	<info author="AlexanderBozhko" name="Role Play" description="Lost World Role Play" version="1" type="gamemode" />
+	 <min_mta_version client="1.4.0" server="1.4.0" />
+	 <oop>true</oop>
+
+	 <script src="/gui/binds_c.lua" type="client" />
+	 <script src="/gui/manager_c.lua" type="client" />
+	 <script src="/gui/functions_c.lua" type="client" />
+	 <script src="/gui/elements/view_c.lua" type="client" />
+	 <script src="/gui/elements/label_c.lua" type="client" />
+	 <script src="/gui/elements/button_c.lua" type="client" />
+	 <script src="/gui/elements/window_c.lua" type="client" />
+
+	 <script src="/gui/main_c.lua" type="client" />
+	  <script src="/gui/adminpanel_c.lua" type="client" />
+
+	 <script src="/admin/admin_c.lua" type="client" />
+	 <script src="/admin/admin.lua" />
+
+	 <file src="/gui/fonts/ferretface.ttf" />
+</meta>
