@@ -2,9 +2,12 @@
 	<info author="AlexanderBozhko" name="Role Play" description="Lost World Role Play" version="1" type="gamemode" />
 	 <min_mta_version client="1.4.0" server="1.4.0" />
 	
-	<script src="/gui/views_c.lua" type="client" />
-	<script src="/gui/drawing_c.lua" type="client" />
-	<script src="/gui/gui_c.lua" type="client"/>
+	<script src="class.lua" type="client" />
+	<script src="/dxgui/main_c.lua" type="client" />
+	<script src="/dxgui/manager_c.lua" type="client" />
+	<script src="/dxgui/classes/view_c.lua" type="client" />
+	<script src="/dxgui/classes/label_c.lua" type="client" />
+	<script src="/dxgui/classes/window_c.lua" type="client" />
 	
 	<script src="/weapon/damage.lua" />
 	<script src="/weapon/damage_c.lua" type="client"/>

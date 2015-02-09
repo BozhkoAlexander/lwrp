@@ -221,3 +221,663 @@
 [2015-02-05 15:38:06] To stop the server, type 'shutdown' or press Ctrl-C
 [2015-02-05 15:38:06] Type 'help' for a list of commands.
 [2015-02-05 15:38:07] Querying MTA master server... success! (Auto detected IP:213.138.83.118)
+[2015-02-05 15:41:51] Server stopped!
+[2015-02-05 15:41:51] Stopping resources...
+[2015-02-05 15:41:51] MODULE: Unloaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2015-02-05 15:41:51] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.4.1
+==================================================================
+= Server name      : Lost World Role Play
+= Server IP address: 
+= Server port      : 22003
+= 
+= Log file         : ../mta_server/mods/deathmatch/logs/server.log
+= Maximum players  : 128
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2015-02-05 18:43:29] Resources: 1 loaded, 0 failed
+[2015-02-05 18:43:29] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2015-02-05 18:43:29] Starting resources...
+[2015-02-05 18:43:29] Server started and is ready to accept connections!
+[2015-02-05 18:43:29] To stop the server, type 'shutdown' or press Ctrl-C
+[2015-02-05 18:43:29] Type 'help' for a list of commands.
+[2015-02-05 18:43:30] Querying MTA master server... success! (Auto detected IP:213.138.83.118)
+[2015-02-05 18:48:22] Server minclientversion is now 1.4.0-9.07032
+[2015-02-05 18:48:22] CONNECT: Sam connected (IP: 192.168.0.76  Serial: EA5750CDA25CA8AE47DB1F70A35F2A93  Version: 1.4.1-9.07060.0)
+[2015-02-05 18:48:26] JOIN: Sam joined the game (IP: 192.168.0.76)
+[2015-02-05 18:48:50] LOGIN: (Admin, Everyone) Sam successfully logged in as 'Samuel' (IP: 192.168.0.76  Serial: EA5750CDA25CA8AE47DB1F70A35F2A93)
+[2015-02-05 18:49:07] SCRIPT: Sam(Samuel) set his script debug mode to 3
+[2015-02-05 19:16:49] restart: Requested by Sam(Samuel)
+[2015-02-05 19:16:55] start: Requested by Sam(Samuel)
+[2015-02-05 19:16:56] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:16:56] Starting lw
+[2015-02-05 19:17:18] start: Requested by Sam(Samuel)
+[2015-02-05 19:17:20] restart: Requested by Sam(Samuel)
+[2015-02-05 19:17:20] Stopping lw
+[2015-02-05 19:17:20] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:17:21] Starting lw
+[2015-02-05 19:17:21] lw restarted successfully
+[2015-02-05 19:19:22] restart: Requested by Sam(Samuel)
+[2015-02-05 19:19:22] Stopping lw
+[2015-02-05 19:19:22] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:19:22] Starting lw
+[2015-02-05 19:19:23] lw restarted successfully
+[2015-02-05 19:28:29] restart: Requested by Sam(Samuel)
+[2015-02-05 19:28:29] Stopping lw
+[2015-02-05 19:28:29] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:28:30] Starting lw
+[2015-02-05 19:28:30] lw restarted successfully
+[2015-02-05 19:29:22] restart: Requested by Sam(Samuel)
+[2015-02-05 19:29:22] Stopping lw
+[2015-02-05 19:29:22] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:29:22] Starting lw
+[2015-02-05 19:29:23] lw restarted successfully
+[2015-02-05 19:30:42] restart: Requested by Sam(Samuel)
+[2015-02-05 19:30:42] Stopping lw
+[2015-02-05 19:30:43] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:30:43] Starting lw
+[2015-02-05 19:30:43] lw restarted successfully
+[2015-02-05 19:31:35] restart: Requested by Sam(Samuel)
+[2015-02-05 19:31:35] Stopping lw
+[2015-02-05 19:31:36] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:31:36] Starting lw
+[2015-02-05 19:31:36] lw restarted successfully
+[2015-02-05 19:32:11] restart: Requested by Sam(Samuel)
+[2015-02-05 19:32:11] Stopping lw
+[2015-02-05 19:32:11] Starting lw
+[2015-02-05 19:32:12] lw restarted successfully
+[2015-02-05 19:32:35] restart: Requested by Sam(Samuel)
+[2015-02-05 19:32:35] Stopping lw
+[2015-02-05 19:32:35] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:32:36] Starting lw
+[2015-02-05 19:32:36] lw restarted successfully
+[2015-02-05 19:35:04] restart: Requested by Sam(Samuel)
+[2015-02-05 19:35:04] Stopping lw
+[2015-02-05 19:35:04] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:35:05] Starting lw
+[2015-02-05 19:35:05] lw restarted successfully
+[2015-02-05 19:35:17] restart: Requested by Sam(Samuel)
+[2015-02-05 19:35:17] Stopping lw
+[2015-02-05 19:35:17] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:35:17] Starting lw
+[2015-02-05 19:35:18] lw restarted successfully
+[2015-02-05 19:40:23] restart: Requested by Sam(Samuel)
+[2015-02-05 19:40:23] Stopping lw
+[2015-02-05 19:40:24] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:40:24] Starting lw
+[2015-02-05 19:40:24] lw restarted successfully
+[2015-02-05 19:41:17] restart: Requested by Sam(Samuel)
+[2015-02-05 19:41:17] Stopping lw
+[2015-02-05 19:41:17] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:41:18] Starting lw
+[2015-02-05 19:41:18] lw restarted successfully
+[2015-02-05 19:41:56] restart: Requested by Sam(Samuel)
+[2015-02-05 19:41:56] Stopping lw
+[2015-02-05 19:41:56] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:41:57] Starting lw
+[2015-02-05 19:41:57] lw restarted successfully
+[2015-02-05 19:42:50] restart: Requested by Sam(Samuel)
+[2015-02-05 19:42:50] Stopping lw
+[2015-02-05 19:42:51] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:42:51] Starting lw
+[2015-02-05 19:42:51] lw restarted successfully
+[2015-02-05 19:49:55] restart: Requested by Sam(Samuel)
+[2015-02-05 19:49:55] Stopping lw
+[2015-02-05 19:49:56] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:49:56] Starting lw
+[2015-02-05 19:49:56] lw restarted successfully
+[2015-02-05 19:53:20] restart: Requested by Sam(Samuel)
+[2015-02-05 19:53:20] Stopping lw
+[2015-02-05 19:53:20] Resource 'lw' changed, reloading and starting
+[2015-02-05 19:53:21] Starting lw
+[2015-02-05 19:53:21] lw restarted successfully
+[2015-02-05 22:11:34] QUIT: Sam left the game [Quit]
+[2015-02-05 22:11:48] Server stopped!
+[2015-02-05 22:11:48] Stopping resources....
+[2015-02-05 22:11:48] MODULE: Unloaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2015-02-05 22:11:48] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.4.1
+==================================================================
+= Server name      : Lost World Role Play
+= Server IP address: 
+= Server port      : 22003
+= 
+= Log file         : ../mta_server/mods/deathmatch/logs/server.log
+= Maximum players  : 128
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2015-02-06 18:38:04] Resources: 1 loaded, 0 failed
+[2015-02-06 18:38:04] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2015-02-06 18:38:04] Starting resources...
+[2015-02-06 18:38:04] Server started and is ready to accept connections!
+[2015-02-06 18:38:04] To stop the server, type 'shutdown' or press Ctrl-C
+[2015-02-06 18:38:04] Type 'help' for a list of commands.
+[2015-02-06 18:38:06] Querying MTA master server... success! (Auto detected IP:213.138.83.118)
+[2015-02-06 20:22:53] Server minclientversion is now 1.4.0-9.07032
+[2015-02-06 20:22:53] CONNECT: Sam connected (IP: 192.168.0.76  Serial: EA5750CDA25CA8AE47DB1F70A35F2A93  Version: 1.4.1-9.07060.0)
+[2015-02-06 20:22:56] JOIN: Sam joined the game (IP: 192.168.0.76)
+[2015-02-06 20:23:12] LOGIN: (Admin, Everyone) Sam successfully logged in as 'Samuel' (IP: 192.168.0.76  Serial: EA5750CDA25CA8AE47DB1F70A35F2A93)
+[2015-02-06 20:23:29] SCRIPT: Sam(Samuel) set his script debug mode to 3
+[2015-02-06 20:23:34] restart: Requested by Sam(Samuel)
+[2015-02-06 20:23:37] start: Requested by Sam(Samuel)
+[2015-02-06 20:23:37] Resource 'lw' changed, reloading and starting
+[2015-02-06 20:23:37] ERROR: Couldn't find script /dxgui/main_c.lua.lua for resource lw
+[2015-02-06 20:23:37] Loading of resource 'lw' failed
+[2015-02-06 20:24:02] start: Requested by Sam(Samuel)
+[2015-02-06 20:24:04] start: Requested by Sam(Samuel)
+[2015-02-06 20:24:05] start: Requested by Sam(Samuel)
+[2015-02-06 20:24:06] start: Requested by Sam(Samuel)
+[2015-02-06 20:24:13] start: Requested by Sam(Samuel)
+[2015-02-06 20:24:15] start: Requested by Sam(Samuel)
+[2015-02-06 20:24:17] start: Requested by Sam(Samuel)
+[2015-02-06 20:24:28] restart: Requested by Sam(Samuel)
+[2015-02-06 20:24:41] start: Requested by Sam(Samuel)
+[2015-02-06 20:24:50] Resource 'lw' changed, reloading
+[2015-02-06 20:24:50] New resource 'lw' loaded
+[2015-02-06 20:24:50] Resources: 1 loaded, 0 failed
+[2015-02-06 20:24:56] start: Requested by Sam(Samuel)
+[2015-02-06 20:24:56] Starting lw
+[2015-02-06 20:28:41] QUIT: Sam left the game [Timed out]
+[2015-02-06 21:28:29] Server stopped!
+[2015-02-06 21:28:30] Stopping resources....
+[2015-02-06 21:28:30] MODULE: Unloaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2015-02-06 21:28:30] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.4.1
+==================================================================
+= Server name      : Lost World Role Play
+= Server IP address: 
+= Server port      : 22003
+= 
+= Log file         : ../mta_server/mods/deathmatch/logs/server.log
+= Maximum players  : 128
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2015-02-09 00:18:33] Compacting accounts database 'internal.db' ...
+[2015-02-09 00:18:38] Resources: 1 loaded, 0 failed
+[2015-02-09 00:18:38] Compacting database 'registry.db' ...
+[2015-02-09 00:18:38] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2015-02-09 00:18:38] Starting resources...
+[2015-02-09 00:18:38] Server started and is ready to accept connections!
+[2015-02-09 00:18:38] To stop the server, type 'shutdown' or press Ctrl-C
+[2015-02-09 00:18:38] Type 'help' for a list of commands.
+[2015-02-09 00:18:39] Querying MTA master server... success! (Auto detected IP:213.138.83.118)
+[2015-02-09 00:19:34] Server minclientversion is now 1.4.0-9.07032
+[2015-02-09 00:19:34] CONNECT: Sam connected (IP: 192.168.0.76  Serial: EA5750CDA25CA8AE47DB1F70A35F2A93  Version: 1.4.1-9.07060.0)
+[2015-02-09 00:19:38] JOIN: Sam joined the game (IP: 192.168.0.76)
+[2015-02-09 00:20:26] LOGIN: (Admin, Everyone) Sam successfully logged in as 'Samuel' (IP: 192.168.0.76  Serial: EA5750CDA25CA8AE47DB1F70A35F2A93)
+[2015-02-09 00:20:33] SCRIPT: Sam(Samuel) set his script debug mode to 3
+[2015-02-09 00:20:39] start: Requested by Sam(Samuel)
+[2015-02-09 00:20:40] Starting lw
+[2015-02-09 00:21:30] restart: Requested by Sam(Samuel)
+[2015-02-09 00:21:30] Stopping lw
+[2015-02-09 00:21:31] Resource 'lw' changed, reloading and starting
+[2015-02-09 00:21:31] Starting lw
+[2015-02-09 00:21:31] lw restarted successfully
+[2015-02-09 00:45:26] restart: Requested by Sam(Samuel)
+[2015-02-09 00:45:26] Stopping lw
+[2015-02-09 00:45:26] Resource 'lw' changed, reloading and starting
+[2015-02-09 00:45:27] Starting lw
+[2015-02-09 00:45:27] SCRIPT ERROR: lw/class.lua:479: unexpected symbol near '<'
+[2015-02-09 00:45:27] ERROR: Loading script failed: lw/class.lua:479: unexpected symbol near '<'
+[2015-02-09 00:45:27] lw restarted successfully
+[2015-02-09 00:45:56] restart: Requested by Sam(Samuel)
+[2015-02-09 00:45:56] Stopping lw
+[2015-02-09 00:45:56] Resource 'lw' changed, reloading and starting
+[2015-02-09 00:45:56] Starting lw
+[2015-02-09 00:45:57] lw restarted successfully
+[2015-02-09 01:43:35] restart: Requested by Sam(Samuel)
+[2015-02-09 01:43:35] Stopping lw
+[2015-02-09 01:43:36] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:43:36] Starting lw
+[2015-02-09 01:43:36] lw restarted successfully
+[2015-02-09 01:44:06] restart: Requested by Sam(Samuel)
+[2015-02-09 01:44:06] Stopping lw
+[2015-02-09 01:44:06] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:44:07] Starting lw
+[2015-02-09 01:44:07] lw restarted successfully
+[2015-02-09 01:44:53] restart: Requested by Sam(Samuel)
+[2015-02-09 01:44:53] Stopping lw
+[2015-02-09 01:44:53] Starting lw
+[2015-02-09 01:44:54] lw restarted successfully
+[2015-02-09 01:45:09] restart: Requested by Sam(Samuel)
+[2015-02-09 01:45:09] Stopping lw
+[2015-02-09 01:45:10] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:45:10] Starting lw
+[2015-02-09 01:45:11] lw restarted successfully
+[2015-02-09 01:47:21] restart: Requested by Sam(Samuel)
+[2015-02-09 01:47:21] Stopping lw
+[2015-02-09 01:47:22] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:47:22] Starting lw
+[2015-02-09 01:47:23] lw restarted successfully
+[2015-02-09 01:48:18] restart: Requested by Sam(Samuel)
+[2015-02-09 01:48:18] Stopping lw
+[2015-02-09 01:48:18] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:48:19] Starting lw
+[2015-02-09 01:48:19] lw restarted successfully
+[2015-02-09 01:49:21] restart: Requested by Sam(Samuel)
+[2015-02-09 01:49:21] Stopping lw
+[2015-02-09 01:49:21] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:49:22] Starting lw
+[2015-02-09 01:49:22] lw restarted successfully
+[2015-02-09 01:51:35] restart: Requested by Sam(Samuel)
+[2015-02-09 01:51:35] Stopping lw
+[2015-02-09 01:51:36] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:51:36] Starting lw
+[2015-02-09 01:51:37] lw restarted successfully
+[2015-02-09 01:51:45] restart: Requested by Sam(Samuel)
+[2015-02-09 01:51:45] Stopping lw
+[2015-02-09 01:51:46] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:51:46] Starting lw
+[2015-02-09 01:51:46] lw restarted successfully
+[2015-02-09 01:52:35] restart: Requested by Sam(Samuel)
+[2015-02-09 01:52:35] Stopping lw
+[2015-02-09 01:52:35] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:52:36] Starting lw
+[2015-02-09 01:52:36] lw restarted successfully
+[2015-02-09 01:53:08] restart: Requested by Sam(Samuel)
+[2015-02-09 01:53:08] Stopping lw
+[2015-02-09 01:53:08] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:53:08] ERROR: Couldn't find script /dxgui/classes/vuew_c.lua for resource lw
+[2015-02-09 01:53:08] Loading of resource 'lw' failed
+[2015-02-09 01:53:08] ERROR: Unable to restart resource lw
+[2015-02-09 01:53:15] restart: Requested by Sam(Samuel)
+[2015-02-09 01:53:23] restart: Requested by Sam(Samuel)
+[2015-02-09 01:53:27] restart: Requested by Sam(Samuel)
+[2015-02-09 01:53:30] restart: Requested by Sam(Samuel)
+[2015-02-09 01:53:35] Resource 'lw' changed, reloading
+[2015-02-09 01:53:35] New resource 'lw' loaded
+[2015-02-09 01:53:35] Resources: 1 loaded, 0 failed
+[2015-02-09 01:53:39] restart: Requested by Sam(Samuel)
+[2015-02-09 01:53:42] start: Requested by Sam(Samuel)
+[2015-02-09 01:53:42] Starting lw
+[2015-02-09 01:55:34] start: Requested by Sam(Samuel)
+[2015-02-09 01:55:37] restart: Requested by Sam(Samuel)
+[2015-02-09 01:55:37] Stopping lw
+[2015-02-09 01:55:37] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:55:38] Starting lw
+[2015-02-09 01:55:38] lw restarted successfully
+[2015-02-09 01:57:39] restart: Requested by Sam(Samuel)
+[2015-02-09 01:57:39] Stopping lw
+[2015-02-09 01:57:40] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:57:40] Starting lw
+[2015-02-09 01:57:40] lw restarted successfully
+[2015-02-09 01:59:00] restart: Requested by Sam(Samuel)
+[2015-02-09 01:59:00] Stopping lw
+[2015-02-09 01:59:00] Resource 'lw' changed, reloading and starting
+[2015-02-09 01:59:00] Starting lw
+[2015-02-09 01:59:01] lw restarted successfully
+[2015-02-09 02:11:55] restart: Requested by Sam(Samuel)
+[2015-02-09 02:11:55] Stopping lw
+[2015-02-09 02:11:56] Resource 'lw' changed, reloading and starting
+[2015-02-09 02:11:56] Starting lw
+[2015-02-09 02:11:57] lw restarted successfully
+[2015-02-09 02:12:18] restart: Requested by Sam(Samuel)
+[2015-02-09 02:12:18] Stopping lw
+[2015-02-09 02:12:19] Resource 'lw' changed, reloading and starting
+[2015-02-09 02:12:19] Starting lw
+[2015-02-09 02:12:19] lw restarted successfully
+[2015-02-09 02:14:56] restart: Requested by Sam(Samuel)
+[2015-02-09 02:14:56] Stopping lw
+[2015-02-09 02:14:57] Resource 'lw' changed, reloading and starting
+[2015-02-09 02:14:57] Starting lw
+[2015-02-09 02:14:57] lw restarted successfully
+[2015-02-09 02:15:26] restart: Requested by Sam(Samuel)
+[2015-02-09 02:15:26] Stopping lw
+[2015-02-09 02:15:27] Resource 'lw' changed, reloading and starting
+[2015-02-09 02:15:27] Starting lw
+[2015-02-09 02:15:27] lw restarted successfully
+[2015-02-09 02:16:17] restart: Requested by Sam(Samuel)
+[2015-02-09 02:16:17] Stopping lw
+[2015-02-09 02:16:18] Resource 'lw' changed, reloading and starting
+[2015-02-09 02:16:18] Starting lw
+[2015-02-09 02:16:18] lw restarted successfully
+[2015-02-09 02:16:28] restart: Requested by Sam(Samuel)
+[2015-02-09 02:16:28] Stopping lw
+[2015-02-09 02:16:28] Resource 'lw' changed, reloading and starting
+[2015-02-09 02:16:29] Starting lw
+[2015-02-09 02:16:29] lw restarted successfully
+[2015-02-09 02:16:34] restart: Requested by Sam(Samuel)
+[2015-02-09 02:16:34] Stopping lw
+[2015-02-09 02:16:35] Starting lw
+[2015-02-09 02:16:35] lw restarted successfully
+[2015-02-09 02:22:58] restart: Requested by Sam(Samuel)
+[2015-02-09 02:22:58] Stopping lw
+[2015-02-09 02:22:58] Resource 'lw' changed, reloading and starting
+[2015-02-09 02:22:59] Starting lw
+[2015-02-09 02:22:59] lw restarted successfully
+[2015-02-09 02:24:58] restart: Requested by Sam(Samuel)
+[2015-02-09 02:24:58] Stopping lw
+[2015-02-09 02:24:58] Resource 'lw' changed, reloading and starting
+[2015-02-09 02:24:59] Starting lw
+[2015-02-09 02:24:59] lw restarted successfully
+[2015-02-09 02:25:07] restart: Requested by Sam(Samuel)
+[2015-02-09 02:25:07] Stopping lw
+[2015-02-09 02:25:08] Starting lw
+[2015-02-09 02:25:08] lw restarted successfully
+[2015-02-09 02:27:56] QUIT: Sam left the game [Timed out]
+[2015-02-09 03:20:47] CONNECT: Sam connected (IP: 192.168.0.76  Serial: EA5750CDA25CA8AE47DB1F70A35F2A93  Version: 1.4.1-9.07060.0)
+[2015-02-09 03:20:50] JOIN: Sam joined the game (IP: 192.168.0.76)
+[2015-02-09 03:21:44] LOGIN: (Admin, Everyone) Sam successfully logged in as 'Samuel' (IP: 192.168.0.76  Serial: EA5750CDA25CA8AE47DB1F70A35F2A93)
+[2015-02-09 03:21:52] SCRIPT: Sam(Samuel) set his script debug mode to 3
+[2015-02-09 03:22:16] restart: Requested by Sam(Samuel)
+[2015-02-09 03:22:16] Stopping lw
+[2015-02-09 03:22:16] Starting lw
+[2015-02-09 03:22:16] lw restarted successfully
+[2015-02-09 03:22:23] restart: Requested by Sam(Samuel)
+[2015-02-09 03:22:23] Stopping lw
+[2015-02-09 03:22:23] Starting lw
+[2015-02-09 03:22:23] lw restarted successfully
+[2015-02-09 03:22:37] restart: Requested by Sam(Samuel)
+[2015-02-09 03:22:37] Stopping lw
+[2015-02-09 03:22:37] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:22:37] Starting lw
+[2015-02-09 03:22:38] lw restarted successfully
+[2015-02-09 03:23:12] restart: Requested by Sam(Samuel)
+[2015-02-09 03:23:12] Stopping lw
+[2015-02-09 03:23:12] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:23:12] Starting lw
+[2015-02-09 03:23:13] lw restarted successfully
+[2015-02-09 03:23:19] restart: Requested by Sam(Samuel)
+[2015-02-09 03:23:19] Stopping lw
+[2015-02-09 03:23:19] Starting lw
+[2015-02-09 03:23:20] lw restarted successfully
+[2015-02-09 03:24:00] restart: Requested by Sam(Samuel)
+[2015-02-09 03:24:00] Stopping lw
+[2015-02-09 03:24:00] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:24:00] Starting lw
+[2015-02-09 03:24:01] lw restarted successfully
+[2015-02-09 03:25:34] restart: Requested by Sam(Samuel)
+[2015-02-09 03:25:34] Stopping lw
+[2015-02-09 03:25:35] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:25:35] Starting lw
+[2015-02-09 03:25:36] lw restarted successfully
+[2015-02-09 03:27:36] restart: Requested by Sam(Samuel)
+[2015-02-09 03:27:36] Stopping lw
+[2015-02-09 03:27:36] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:27:37] Starting lw
+[2015-02-09 03:27:37] lw restarted successfully
+[2015-02-09 03:28:43] restart: Requested by Sam(Samuel)
+[2015-02-09 03:28:43] Stopping lw
+[2015-02-09 03:28:44] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:28:44] Starting lw
+[2015-02-09 03:28:44] lw restarted successfully
+[2015-02-09 03:29:31] restart: Requested by Sam(Samuel)
+[2015-02-09 03:29:31] Stopping lw
+[2015-02-09 03:29:31] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:29:31] Starting lw
+[2015-02-09 03:29:32] lw restarted successfully
+[2015-02-09 03:30:30] restart: Requested by Sam(Samuel)
+[2015-02-09 03:30:30] Stopping lw
+[2015-02-09 03:30:30] Starting lw
+[2015-02-09 03:30:31] lw restarted successfully
+[2015-02-09 03:30:34] restart: Requested by Sam(Samuel)
+[2015-02-09 03:30:34] Stopping lw
+[2015-02-09 03:30:35] Starting lw
+[2015-02-09 03:30:35] lw restarted successfully
+[2015-02-09 03:30:57] restart: Requested by Sam(Samuel)
+[2015-02-09 03:30:57] Stopping lw
+[2015-02-09 03:30:57] Starting lw
+[2015-02-09 03:30:58] lw restarted successfully
+[2015-02-09 03:31:06] restart: Requested by Sam(Samuel)
+[2015-02-09 03:31:06] Stopping lw
+[2015-02-09 03:31:07] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:31:07] Starting lw
+[2015-02-09 03:31:08] lw restarted successfully
+[2015-02-09 03:31:26] restart: Requested by Sam(Samuel)
+[2015-02-09 03:31:26] Stopping lw
+[2015-02-09 03:31:26] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:31:26] Starting lw
+[2015-02-09 03:31:27] lw restarted successfully
+[2015-02-09 03:31:55] restart: Requested by Sam(Samuel)
+[2015-02-09 03:31:55] Stopping lw
+[2015-02-09 03:31:56] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:31:56] Starting lw
+[2015-02-09 03:31:56] lw restarted successfully
+[2015-02-09 03:34:05] restart: Requested by Sam(Samuel)
+[2015-02-09 03:34:05] Stopping lw
+[2015-02-09 03:34:06] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:34:06] Starting lw
+[2015-02-09 03:34:07] lw restarted successfully
+[2015-02-09 03:34:47] restart: Requested by Sam(Samuel)
+[2015-02-09 03:34:47] Stopping lw
+[2015-02-09 03:34:48] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:34:48] Starting lw
+[2015-02-09 03:34:48] lw restarted successfully
+[2015-02-09 03:37:48] restart: Requested by Sam(Samuel)
+[2015-02-09 03:37:48] Stopping lw
+[2015-02-09 03:37:49] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:37:49] Starting lw
+[2015-02-09 03:37:49] lw restarted successfully
+[2015-02-09 03:39:03] restart: Requested by Sam(Samuel)
+[2015-02-09 03:39:03] Stopping lw
+[2015-02-09 03:39:03] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:39:03] Starting lw
+[2015-02-09 03:39:04] lw restarted successfully
+[2015-02-09 03:39:34] restart: Requested by Sam(Samuel)
+[2015-02-09 03:39:34] Stopping lw
+[2015-02-09 03:39:35] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:39:35] Starting lw
+[2015-02-09 03:39:35] lw restarted successfully
+[2015-02-09 03:39:50] restart: Requested by Sam(Samuel)
+[2015-02-09 03:39:50] Stopping lw
+[2015-02-09 03:39:50] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:39:51] Starting lw
+[2015-02-09 03:39:51] lw restarted successfully
+[2015-02-09 03:48:18] restart: Requested by Sam(Samuel)
+[2015-02-09 03:48:18] Stopping lw
+[2015-02-09 03:48:18] Resource 'lw' changed, reloading and starting
+[2015-02-09 03:48:18] Starting lw
+[2015-02-09 03:48:19] lw restarted successfully
+[2015-02-09 03:53:10] restart: Requested by Sam(Samuel)
+[2015-02-09 03:53:10] Stopping lw
+[2015-02-09 03:53:11] Starting lw
+[2015-02-09 03:53:11] lw restarted successfully
+[2015-02-09 03:53:15] restart: Requested by Sam(Samuel)
+[2015-02-09 03:53:15] Stopping lw
+[2015-02-09 03:53:15] Starting lw
+[2015-02-09 03:53:16] lw restarted successfully
+[2015-02-09 03:53:21] restart: Requested by Sam(Samuel)
+[2015-02-09 03:53:21] Stopping lw
+[2015-02-09 03:53:22] Starting lw
+[2015-02-09 03:53:22] lw restarted successfully
+[2015-02-09 04:07:25] restart: Requested by Sam(Samuel)
+[2015-02-09 04:07:25] Stopping lw
+[2015-02-09 04:07:26] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:07:26] Starting lw
+[2015-02-09 04:07:26] lw restarted successfully
+[2015-02-09 04:09:30] restart: Requested by Sam(Samuel)
+[2015-02-09 04:09:30] Stopping lw
+[2015-02-09 04:09:31] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:09:31] Starting lw
+[2015-02-09 04:09:31] lw restarted successfully
+[2015-02-09 04:11:21] restart: Requested by Sam(Samuel)
+[2015-02-09 04:11:21] Stopping lw
+[2015-02-09 04:11:21] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:11:22] Starting lw
+[2015-02-09 04:11:22] lw restarted successfully
+[2015-02-09 04:15:13] restart: Requested by Sam(Samuel)
+[2015-02-09 04:15:13] Stopping lw
+[2015-02-09 04:15:13] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:15:13] Starting lw
+[2015-02-09 04:15:14] lw restarted successfully
+[2015-02-09 04:16:03] restart: Requested by Sam(Samuel)
+[2015-02-09 04:16:03] Stopping lw
+[2015-02-09 04:16:04] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:16:04] Starting lw
+[2015-02-09 04:16:04] lw restarted successfully
+[2015-02-09 04:19:27] restart: Requested by Sam(Samuel)
+[2015-02-09 04:19:27] Stopping lw
+[2015-02-09 04:19:27] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:19:27] Starting lw
+[2015-02-09 04:19:28] lw restarted successfully
+[2015-02-09 04:19:36] restart: Requested by Sam(Samuel)
+[2015-02-09 04:19:36] Stopping lw
+[2015-02-09 04:19:36] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:19:36] Starting lw
+[2015-02-09 04:19:37] lw restarted successfully
+[2015-02-09 04:19:52] restart: Requested by Sam(Samuel)
+[2015-02-09 04:19:52] Stopping lw
+[2015-02-09 04:19:53] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:19:53] Starting lw
+[2015-02-09 04:19:53] lw restarted successfully
+[2015-02-09 04:20:12] restart: Requested by Sam(Samuel)
+[2015-02-09 04:20:12] Stopping lw
+[2015-02-09 04:20:12] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:20:12] Starting lw
+[2015-02-09 04:20:13] lw restarted successfully
+[2015-02-09 04:22:26] restart: Requested by Sam(Samuel)
+[2015-02-09 04:22:26] Stopping lw
+[2015-02-09 04:22:26] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:22:27] Starting lw
+[2015-02-09 04:22:27] lw restarted successfully
+[2015-02-09 04:22:54] restart: Requested by Sam(Samuel)
+[2015-02-09 04:22:54] Stopping lw
+[2015-02-09 04:22:54] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:22:55] Starting lw
+[2015-02-09 04:22:55] lw restarted successfully
+[2015-02-09 04:23:02] restart: Requested by Sam(Samuel)
+[2015-02-09 04:23:02] Stopping lw
+[2015-02-09 04:23:02] Starting lw
+[2015-02-09 04:23:02] lw restarted successfully
+[2015-02-09 04:26:15] restart: Requested by Sam(Samuel)
+[2015-02-09 04:26:15] Stopping lw
+[2015-02-09 04:26:16] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:26:16] Starting lw
+[2015-02-09 04:26:17] lw restarted successfully
+[2015-02-09 04:26:43] restart: Requested by Sam(Samuel)
+[2015-02-09 04:26:43] Stopping lw
+[2015-02-09 04:26:44] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:26:44] Starting lw
+[2015-02-09 04:26:44] lw restarted successfully
+[2015-02-09 04:28:15] restart: Requested by Sam(Samuel)
+[2015-02-09 04:28:15] Stopping lw
+[2015-02-09 04:28:15] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:28:16] Starting lw
+[2015-02-09 04:28:16] lw restarted successfully
+[2015-02-09 04:30:48] restart: Requested by Sam(Samuel)
+[2015-02-09 04:30:48] Stopping lw
+[2015-02-09 04:30:49] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:30:49] Starting lw
+[2015-02-09 04:30:49] lw restarted successfully
+[2015-02-09 04:31:23] restart: Requested by Sam(Samuel)
+[2015-02-09 04:31:23] Stopping lw
+[2015-02-09 04:31:23] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:31:24] Starting lw
+[2015-02-09 04:31:24] lw restarted successfully
+[2015-02-09 04:32:01] restart: Requested by Sam(Samuel)
+[2015-02-09 04:32:01] Stopping lw
+[2015-02-09 04:32:01] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:32:01] Starting lw
+[2015-02-09 04:32:02] lw restarted successfully
+[2015-02-09 04:32:14] restart: Requested by Sam(Samuel)
+[2015-02-09 04:32:14] Stopping lw
+[2015-02-09 04:32:15] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:32:15] Starting lw
+[2015-02-09 04:32:16] lw restarted successfully
+[2015-02-09 04:33:07] restart: Requested by Sam(Samuel)
+[2015-02-09 04:33:07] Stopping lw
+[2015-02-09 04:33:07] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:33:07] Starting lw
+[2015-02-09 04:33:08] lw restarted successfully
+[2015-02-09 04:33:19] restart: Requested by Sam(Samuel)
+[2015-02-09 04:33:19] Stopping lw
+[2015-02-09 04:33:20] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:33:20] Starting lw
+[2015-02-09 04:33:21] lw restarted successfully
+[2015-02-09 04:33:42] restart: Requested by Sam(Samuel)
+[2015-02-09 04:33:42] Stopping lw
+[2015-02-09 04:33:43] Starting lw
+[2015-02-09 04:33:43] lw restarted successfully
+[2015-02-09 04:34:11] restart: Requested by Sam(Samuel)
+[2015-02-09 04:34:11] Stopping lw
+[2015-02-09 04:34:12] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:34:12] Starting lw
+[2015-02-09 04:34:12] lw restarted successfully
+[2015-02-09 04:35:00] restart: Requested by Sam(Samuel)
+[2015-02-09 04:35:00] Stopping lw
+[2015-02-09 04:35:01] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:35:01] Starting lw
+[2015-02-09 04:35:01] lw restarted successfully
+[2015-02-09 04:38:08] QUIT: Sam left the game [Timed out]
+[2015-02-09 04:42:30] CONNECT: Sam connected (IP: 192.168.0.76  Serial: EA5750CDA25CA8AE47DB1F70A35F2A93  Version: 1.4.1-9.07060.0)
+[2015-02-09 04:42:31] JOIN: Sam joined the game (IP: 192.168.0.76)
+[2015-02-09 04:42:41] LOGIN: (Admin, Everyone) Sam successfully logged in as 'Samuel' (IP: 192.168.0.76  Serial: EA5750CDA25CA8AE47DB1F70A35F2A93)
+[2015-02-09 04:42:43] SCRIPT: Sam(Samuel) set his script debug mode to 3
+[2015-02-09 04:42:46] restart: Requested by Sam(Samuel)
+[2015-02-09 04:42:46] Stopping lw
+[2015-02-09 04:42:46] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:42:47] Starting lw
+[2015-02-09 04:42:47] lw restarted successfully
+[2015-02-09 04:43:21] restart: Requested by Sam(Samuel)
+[2015-02-09 04:43:21] Stopping lw
+[2015-02-09 04:43:22] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:43:22] Starting lw
+[2015-02-09 04:43:23] lw restarted successfully
+[2015-02-09 04:43:43] restart: Requested by Sam(Samuel)
+[2015-02-09 04:43:43] Stopping lw
+[2015-02-09 04:43:43] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:43:44] Starting lw
+[2015-02-09 04:43:44] lw restarted successfully
+[2015-02-09 04:43:51] restart: Requested by Sam(Samuel)
+[2015-02-09 04:43:51] Stopping lw
+[2015-02-09 04:43:51] Starting lw
+[2015-02-09 04:43:51] lw restarted successfully
+[2015-02-09 04:44:13] restart: Requested by Sam(Samuel)
+[2015-02-09 04:44:13] Stopping lw
+[2015-02-09 04:44:13] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:44:14] Starting lw
+[2015-02-09 04:44:14] lw restarted successfully
+[2015-02-09 04:44:41] restart: Requested by Sam(Samuel)
+[2015-02-09 04:44:41] Stopping lw
+[2015-02-09 04:44:42] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:44:42] Starting lw
+[2015-02-09 04:44:43] lw restarted successfully
+[2015-02-09 04:45:19] restart: Requested by Sam(Samuel)
+[2015-02-09 04:45:19] Stopping lw
+[2015-02-09 04:45:20] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:45:20] Starting lw
+[2015-02-09 04:45:20] lw restarted successfully
+[2015-02-09 04:48:44] restart: Requested by Sam(Samuel)
+[2015-02-09 04:48:44] Stopping lw
+[2015-02-09 04:48:45] Resource 'lw' changed, reloading and starting
+[2015-02-09 04:48:45] Starting lw
+[2015-02-09 04:48:45] lw restarted successfully
+[2015-02-09 05:00:14] restart: Requested by Sam(Samuel)
+[2015-02-09 05:00:14] Stopping lw
+[2015-02-09 05:00:15] Resource 'lw' changed, reloading and starting
+[2015-02-09 05:00:15] Starting lw
+[2015-02-09 05:00:15] lw restarted successfully
+[2015-02-09 05:01:03] restart: Requested by Sam(Samuel)
+[2015-02-09 05:01:03] Stopping lw
+[2015-02-09 05:01:03] Resource 'lw' changed, reloading and starting
+[2015-02-09 05:01:03] Starting lw
+[2015-02-09 05:01:04] lw restarted successfully
+[2015-02-09 05:02:00] restart: Requested by Sam(Samuel)
+[2015-02-09 05:02:00] Stopping lw
+[2015-02-09 05:02:01] Resource 'lw' changed, reloading and starting
+[2015-02-09 05:02:01] Starting lw
+[2015-02-09 05:02:01] lw restarted successfully
+[2015-02-09 05:02:48] restart: Requested by Sam(Samuel)
+[2015-02-09 05:02:48] Stopping lw
+[2015-02-09 05:02:49] Resource 'lw' changed, reloading and starting
+[2015-02-09 05:02:49] Starting lw
+[2015-02-09 05:02:50] lw restarted successfully
+[2015-02-09 05:03:06] restart: Requested by Sam(Samuel)
+[2015-02-09 05:03:06] Stopping lw
+[2015-02-09 05:03:07] Resource 'lw' changed, reloading and starting
+[2015-02-09 05:03:07] Starting lw
+[2015-02-09 05:03:08] lw restarted successfully
+[2015-02-09 05:06:30] restart: Requested by Sam(Samuel)
+[2015-02-09 05:06:30] Stopping lw
+[2015-02-09 05:06:30] Resource 'lw' changed, reloading and starting
+[2015-02-09 05:06:31] Starting lw
+[2015-02-09 05:06:31] lw restarted successfully
