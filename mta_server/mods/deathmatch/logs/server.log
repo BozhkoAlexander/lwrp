@@ -881,3 +881,79 @@
 [2015-02-09 05:06:30] Resource 'lw' changed, reloading and starting
 [2015-02-09 05:06:31] Starting lw
 [2015-02-09 05:06:31] lw restarted successfully
+[2015-02-15 19:10:30] restart: Requested by Sam(Samuel)
+[2015-02-15 19:10:30] Stopping lw
+[2015-02-15 19:10:30] Resource 'lw' changed, reloading and starting
+[2015-02-15 19:10:30] Starting lw
+[2015-02-15 19:10:31] lw restarted successfully
+[2015-02-15 19:13:19] restart: Requested by Sam(Samuel)
+[2015-02-15 19:13:19] Stopping lw
+[2015-02-15 19:13:19] Starting lw
+[2015-02-15 19:13:20] lw restarted successfully
+[2015-02-15 19:29:02] restart: Requested by Sam(Samuel)
+[2015-02-15 19:29:02] Stopping lw
+[2015-02-15 19:29:03] Resource 'lw' changed, reloading and starting
+[2015-02-15 19:29:04] Starting lw
+[2015-02-15 19:29:04] lw restarted successfully
+[2015-02-15 19:30:33] restart: Requested by Sam(Samuel)
+[2015-02-15 19:30:33] Stopping lw
+[2015-02-15 19:30:34] Resource 'lw' changed, reloading and starting
+[2015-02-15 19:30:34] Starting lw
+[2015-02-15 19:30:35] lw restarted successfully
+[2015-02-15 19:31:05] restart: Requested by Sam(Samuel)
+[2015-02-15 19:31:05] Stopping lw
+[2015-02-15 19:31:06] Resource 'lw' changed, reloading and starting
+[2015-02-15 19:31:06] Starting lw
+[2015-02-15 19:31:07] lw restarted successfully
+[2015-02-15 19:32:27] restart: Requested by Sam(Samuel)
+[2015-02-15 19:32:27] Stopping lw
+[2015-02-15 19:32:28] Resource 'lw' changed, reloading and starting
+[2015-02-15 19:32:29] Starting lw
+[2015-02-15 19:32:29] ERROR: lw/admin/admin_s.lua:14: attempt to call global 'class' (a nil value)
+[2015-02-15 19:32:29] lw restarted successfully
+[2015-02-15 19:32:32] INFO: Player Sam will spawn incognito.
+[2015-02-15 19:32:33] INFO: Player Sam will get a weapon.
+[2015-02-15 19:32:35] INFO: Player Sam will get a vehicle.
+[2015-02-15 19:34:00] restart: Requested by Sam(Samuel)
+[2015-02-15 19:34:00] Stopping lw
+[2015-02-15 19:34:00] Resource 'lw' changed, reloading and starting
+[2015-02-15 19:34:01] Starting lw
+[2015-02-15 19:34:01] ERROR: lw/admin/admin_s.lua:14: attempt to call global 'class' (a nil value)
+[2015-02-15 19:34:02] lw restarted successfully
+[2015-02-15 19:34:08] INFO: Player Sam will get a weapon.
+[2015-02-15 19:34:43] restart: Requested by Sam(Samuel)
+[2015-02-15 19:34:43] Stopping lw
+[2015-02-15 19:34:43] Starting lw
+[2015-02-15 19:34:43] ERROR: lw/admin/admin_s.lua:14: attempt to call global 'class' (a nil value)
+[2015-02-15 19:34:44] lw restarted successfully
+[2015-02-15 19:34:46] INFO: Player Sam will get a weapon.
+[2015-02-15 19:36:30] restart: Requested by Sam(Samuel)
+[2015-02-15 19:36:30] Stopping lw
+[2015-02-15 19:36:30] Resource 'lw' changed, reloading and starting
+[2015-02-15 19:36:31] Starting lw
+[2015-02-15 19:36:31] ERROR: lw/admin/admin_s.lua:14: attempt to call global 'class' (a nil value)
+[2015-02-15 19:36:32] lw restarted successfully
+[2015-02-15 19:36:54] INFO: Player Sam will get a weapon.
+[2015-02-15 19:37:56] Resources: 1 loaded, 0 failed
+[2015-02-15 19:37:59] restart: Requested by Sam(Samuel)
+[2015-02-15 19:37:59] Stopping lw
+[2015-02-15 19:38:00] Starting lw
+[2015-02-15 19:38:00] ERROR: lw/admin/admin_s.lua:14: attempt to call global 'class' (a nil value)
+[2015-02-15 19:38:00] lw restarted successfully
+[2015-02-15 19:38:53] INFO: Player Sam will get a vehicle.
+[2015-02-15 19:41:47] restart: Requested by Sam(Samuel)
+[2015-02-15 19:41:47] Stopping lw
+[2015-02-15 19:41:47] Resource 'lw' changed, reloading and starting
+[2015-02-15 19:41:48] Starting lw
+[2015-02-15 19:41:48] ERROR: lw/admin/admin_s.lua:14: attempt to call global 'class' (a nil value)
+[2015-02-15 19:41:49] lw restarted successfully
+[2015-02-15 19:46:34] restart: Requested by Sam(Samuel)
+[2015-02-15 19:46:35] Stopping lw
+[2015-02-15 19:46:35] Resource 'lw' changed, reloading and starting
+[2015-02-15 19:46:36] Starting lw
+[2015-02-15 19:46:37] lw restarted successfully
+[2015-02-15 19:46:40] restart: Requested by Sam(Samuel)
+[2015-02-15 19:46:40] Stopping lw
+[2015-02-15 19:46:41] Starting lw
+[2015-02-15 19:46:41] lw restarted successfully
+[2015-02-15 19:46:44] INFO: Player Sam will get a vehicle.

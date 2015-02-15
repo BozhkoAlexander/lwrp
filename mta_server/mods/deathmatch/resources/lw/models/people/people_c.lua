@@ -1,9 +1,4 @@
-function replaceWeapons()
-	txd = engineLoadTXD('/models/transporter.txd', true)
-	engineImportTXD(txd, 355)
-	dff = engineLoadDFF('/models/transporter.dff', 355)
-	engineReplaceModel(dff, 355)
-	
+function replacePeople()
 	--/models/people/omyst.txd
 	txd = engineLoadTXD('/models/people/omyst.txd', true)
 	engineImportTXD(txd, 210)
@@ -28,4 +23,4 @@ function replaceWeapons()
 	dff = engineLoadDFF('/models/people/male01.dff', 183)
 	engineReplaceModel(dff, 183)
 end
-addEventHandler ( 'onClientResourceStart', getResourceRootElement(getThisResource()), replaceWeapons)
+addEventHandler ( 'onClientResourceStart', getResourceRootElement(getThisResource()), replacePeople)

@@ -1,18 +1,27 @@
 <meta>
 	<info author="AlexanderBozhko" name="Role Play" description="Lost World Role Play" version="1" type="gamemode" />
+	<oop>true</oop>
 	 <min_mta_version client="1.4.0" server="1.4.0" />
 	
-	<script src="class.lua" type="client" />
+	<script src="class.lua" type="shared" />
+	<script src="/dxgui/binds_c.lua" type="client" />
 	<script src="/dxgui/main_c.lua" type="client" />
 	<script src="/dxgui/manager_c.lua" type="client" />
 	<script src="/dxgui/classes/view_c.lua" type="client" />
 	<script src="/dxgui/classes/label_c.lua" type="client" />
+	<script src="/dxgui/classes/editlabel_c.lua" type="client" />
+	<script src="/dxgui/classes/button_c.lua" type="client" />
 	<script src="/dxgui/classes/window_c.lua" type="client" />
+
+	<script src="admin/admin.lua" />
+	<script src="admin/admin_c.lua" type="client" />
+	<script src="admin/admin_s.lua" type="shared" />
 	
 	<script src="/weapon/damage.lua" />
 	<script src="/weapon/damage_c.lua" type="client"/>
 		
-	<script src="/maps/replace_c.lua" type="client"/>	
+	<script src="/maps/replace_c.lua" type="client"/>
+	<map src="/maps/ship.map" />	
 	
 	<script src="/models/cars_c.lua" type="client"/>
 	<file src="/models/transporter.txd" type="client"/>
