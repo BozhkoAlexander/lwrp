@@ -42,8 +42,16 @@ addEventHandler("onClientResourceStart", getRootElement(), function ( startedRes
 	end)
 	adminPanel:addSubview(akButton)
 
-	local loginLabel = DXEditLabel(50, 50, 250, 30, nil, LWColor.blue, LWColor.orange, "login")
+	local loginLabel = DXLabel(10, 40, 155, 30, LWColor.blue, "Логин:", nil, nil, "right", "center")
 	adminPanel:addSubview(loginLabel)
+	local passLabel = DXLabel(10, 80, 155, 30, LWColor.blue, "Пароль:", nil, nil, "right", "center")
+	adminPanel:addSubview(passLabel)
+
+	local loginEdit = DXEditLabel(175, 40, 165, 30, nil, LWColor.blue, LWColor.orange, "")
+	adminPanel:addSubview(loginEdit)
+	local passEdit = DXEditLabel(175, 80, 165, 30, nil, LWColor.blue, LWColor.orange, "")
+	passEdit:setSecure(true)
+	adminPanel:addSubview(passEdit)
 	---------------------
 
 	table.insert(DXViews, adminPanel)

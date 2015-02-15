@@ -30,7 +30,6 @@ function DXWindow:draw ( )
 	dxDrawRectangle(absX, absY, 1, h, self.borderColor)
 	dxDrawRectangle(absX + w - 1, absY, 1, h, self.borderColor)
 	dxDrawRectangle(absX, absY + h - 1, w, 1, self.borderColor)
-	self.titleLabel:draw()
 end
 
 --[[ Documentation:

@@ -24,7 +24,7 @@ function DXEditLabel:__init ( x, y, w, h, backgroundColor, borderColor, textColo
 	self.DXView:__init(x, y, w, h, textColor)
 	self.borderColor = borderColor or tocolor(150, 150, 150)
 	self.backgroundColor = backgroundColor or tocolor(0, 0, 0, 0)
-	self.textLabel = DXLabel(5, 0, w-5, h, textColor, text, nil, nil, "left", "center")
+	self.textLabel = DXLabel(5, 0, w - 10, h, textColor, text, nil, nil, "left", "center")
 	self:addSubview(self.textLabel)
 
 	self.onClicked = function ( self )
@@ -40,7 +40,6 @@ function DXEditLabel:draw ( )
 	dxDrawRectangle(absX, absY, 1, h, self.borderColor)
 	dxDrawRectangle(absX + w - 1, absY, 1, h, self.borderColor)
 	dxDrawRectangle(absX, absY + h - 1, w, 1, self.borderColor)
-	self.textLabel:draw()
 end
 
 function DXEditLabel:isEdited ( )
@@ -49,6 +48,10 @@ end
 
 function DXEditLabel:setEdited ( edited )
 	self.edited = edited
+end
+
+function DXEditLabel:setSecure( secure )
+	self.textLabel:setSecure(secure)
 end
 
 function DXEditLabel:setText ( text )

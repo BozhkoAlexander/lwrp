@@ -43,6 +43,7 @@ addEvent("onDXButtonRelease", false)
 
 local function getPressedSubview( view, x, y )
 	local pressedView = nil
+	if classname(view) == "DXEditLabel" then view:setEdited(false) end
 	if view:getVisible() and view:isInside(x, y) then
 		pressedView = view
 		if classname(pressedView) == "DXButton" then return pressedView end

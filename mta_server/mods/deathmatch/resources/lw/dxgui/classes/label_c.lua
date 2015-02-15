@@ -18,6 +18,7 @@ DXLabel = class ("DXLabel", virtual(DXView), {
 	alignY = "top";
 	clip = false;
 	wordBreak = false;
+	secure = false;
 })
 
 function DXLabel:__init ( x, y, w, h, color, text, scale, font, alignX, alignY, clip, wordBreak )
@@ -29,16 +30,32 @@ function DXLabel:__init ( x, y, w, h, color, text, scale, font, alignX, alignY, 
 	self.alignY = alignY or "top"
 	self.clip = clip or false
 	self.wordBreak = wordBreak or false
+	self.secure = false
 end
 
 function DXLabel:draw ( )
 	local x, y, w, h = self:getFrame()
 	local absX, absY = self:getAbsPos()
-	dxDrawText(self.text, absX, absY, absX + w, absY + h, self:getColor(), self.scale, self.font, self.alignX, self.alignY, self.clip, self.wordBreak)
+	if self.secure then
+		local text = ""
+		for i=1, #self.text do
+			local code = string.byte(string.sub(self.text, i,i+1))
+			if code ~= 208 and code ~= 209 then
+				text = text..string.char(7)
+			end
+		end
+		dxDrawText(text, absX, absY, absX + w, absY + h, self:getColor(), self.scale, self.font, self.alignX, self.alignY, self.clip, self.wordBreak)
+	else
+		dxDrawText(self.text, absX, absY, absX + w, absY + h, self:getColor(), self.scale, self.font, self.alignX, self.alignY, self.clip, self.wordBreak)
+	end
 end
 
 function DXLabel:setText( text )
 	self.text = text
+end
+
+function DXLabel:setSecure( secure )
+	self.secure = secure
 end
 
 --[[ Documentation:
