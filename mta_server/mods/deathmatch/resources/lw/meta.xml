@@ -16,13 +16,12 @@
 	<script src="admin/admin.lua" />
 	<script src="admin/admin_c.lua" type="client" />
 	<script src="admin/admin_s.lua" type="shared" />
-	
-	<script src="/weapon/damage.lua" />
-	<script src="/weapon/damage_c.lua" type="client"/>
+
+	<script src="interiors/interiors.lua" />
 		
 	<script src="/maps/replace_c.lua" type="client"/>
 	<map src="/maps/ship.map" />	
-	
+
 	<script src="/models/cars_c.lua" type="client"/>
 	<file src="/models/transporter.txd" type="client"/>
 	<file src="/models/transporter.dff" type="client"/>

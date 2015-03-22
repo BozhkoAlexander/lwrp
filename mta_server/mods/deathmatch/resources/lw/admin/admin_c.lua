@@ -24,6 +24,21 @@ function Admin.getHydra()
 	triggerServerEvent("admin:vehicle", localPlayer, 520)
 end
 
+
+function Admin.getVehicle(id)
+	triggerServerEvent("admin:vehicle", localPlayer, id)
+end
+
 function Admin.getWeapon( id )
 	triggerServerEvent("admin:weapon", localPlayer, id)
 end
+
+function Admin.login( username, password )
+	outputDebugString("Try admin login as "..username.. " with password "..password.."...")
+	triggerServerEvent("admin:login", localPlayer, username, password)
+end
+
+addEvent("admin:onLogin", true)
+addEventHandler("admin:onLogin", root, function ( account )
+	Admin.spawnIncognito()
+end)

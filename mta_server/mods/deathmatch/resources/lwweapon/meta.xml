@@ -1,0 +1,9 @@
+<meta>
+	<info author="AlexanderBozhko" name="lwweapon" description="Weapons damages" version="1.0" type="script" />
+	<oop>true</oop>
+	 <min_mta_version client="1.4.0" server="1.4.0" />
+	
+	<script src="damage.lua" />
+	<script src="damage_c.lua" type="client"/>
+	
+</meta>

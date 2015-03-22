@@ -11,7 +11,7 @@
 ]]
 
 function bindKeys( )
-	bindKey("F2", "up", toggleAdminPanel)
+	bindKey("F3", "up", toggleAdminPanel)
 end
 
 function updateCursor( )

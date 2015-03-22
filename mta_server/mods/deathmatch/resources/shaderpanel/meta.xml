@@ -1,0 +1,32 @@
+<meta>
+	<info author="Ren712" version="1.02" name="ShaderPanel" description="Shader Configuration Panel" type="script" />
+	<script src="shader_config_gui.lua" type="client" />
+	<script src="sh_config.lua" type="client" />
+        <script src="nitro_color.lua" type="client" />
+        <script src="shader_color.lua" type="client" />
+	<script src="shaders/c_car_paint.lua" type="client" />
+	<file src="shaders/car_paint.fx" type="client" />
+	<file src="shaders/mta-helper.fx" type="client" />
+	<file src="shaders/images/smallnoise3d.dds" type="client" />
+	<file src="shaders/images/cube_env256.dds" type="client" />
+	<script src="shaders/c_water.lua" type="client" />
+	<file src="shaders/water.fx" type="client" />
+	<file src="shaders/images/smallnoise3d.dds" type="client" />
+	<file src="shaders/images/cube_env256.dds" type="client" />
+        <script src="shaders/nitroshad.lua" type="client" />
+	<file src="shaders/nitro.fx" />
+	<script src="shaders/c_roadshine.lua" type="client" />
+	<file src="shaders/roadshine.fx" type="client" />
+	<script src="shaders/c_contrast.lua" type="client" />
+	<script src="shaders/c_rtpool.lua" type="client" />
+	<file src="shaders/bloom_combine.fx" type="client" />
+	<file src="shaders/bloom_extract.fx" type="client" />
+	<file src="shaders/blurH.fx" type="client" />
+	<file src="shaders/blurV.fx" type="client" />
+	<file src="shaders/contrast.fx" type="client" />
+	<file src="shaders/modulation.fx" type="client" />
+        <file src="shaders/addBlend.fx" type="client" />
+	<file src="shaders/images/vignette1.dds" type="client" />
+	<script src="shaders/c_roadshine3.lua" type="client" />
+	<file src="shaders/roadshine3.fx" type="client" />	
+</meta>

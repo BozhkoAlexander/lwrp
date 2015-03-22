@@ -1,0 +1,8 @@
+<meta>
+	<info author="AlexanderBozhko" name="lwambient" description="Game time, weather..." version="1.0" type="script" />
+	<oop>true</oop>
+	 <min_mta_version client="1.4.0" server="1.4.0" />
+	
+	<script src="time.lua" />
+	
+</meta>
