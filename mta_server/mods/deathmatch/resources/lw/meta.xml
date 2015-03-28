@@ -18,6 +18,10 @@
 	<script src="admin/admin_s.lua" type="shared" />
 
 	<script src="interiors/interiors.lua" />
+	<script src="commands.lua" />
+
+	<script src="actions/gates/gates.lua" />
+	<script src="actions/gates/gates_c.lua" type="client" />
 		
 	<script src="/maps/replace_c.lua" type="client"/>
 	<map src="/maps/ship.map" />	

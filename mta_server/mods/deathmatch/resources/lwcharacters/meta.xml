@@ -1,0 +1,10 @@
+<meta>
+	<info author="AlexanderBozhko" name="lwcharacters" description="Characters manager" version="1.0" type="script" />
+	<oop>true</oop>
+	 <min_mta_version client="1.4.0" server="1.4.0" />
+	
+	<script src="character.lua" />
+	<script src="character_c.lua" type="client" />
+	<script src="character_s.lua" type="shared" />
+	
+</meta>

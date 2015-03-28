@@ -12,6 +12,7 @@
 
 function bindKeys( )
 	bindKey("F3", "up", toggleAdminPanel)
+	bindKey("E", "up", interactiveAction)
 end
 
 function updateCursor( )
@@ -27,4 +28,9 @@ end
 
 function toggleCursor( )
 	showCursor(not isCursorShowing())
+end
+
+addEvent("onPressedInteractiveAction", false)
+function interactiveAction( )
+	triggerEvent("onPressedInteractiveAction", localPlayer)
 end

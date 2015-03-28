@@ -4,5 +4,6 @@
 	 <min_mta_version client="1.4.0" server="1.4.0" />
 	
 	<script src="time.lua" />
+	<script src="weather.lua" />
 	
 </meta>

@@ -43,4 +43,6 @@
     <removeWorldObject id="removeWorldObject (CJ_ARM_CRATE_top) (23)" radius="3.0097766" interior="0" model="961" lodModel="0" posX="2602.1917" posY="2835.9033" posZ="10.48288" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
     <removeWorldObject id="removeWorldObject (CJ_ARM_CRATE) (18)" radius="2.9247165" interior="0" model="960" lodModel="0" posX="2598.6641" posY="2842.0859" posZ="10.20313" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
     <removeWorldObject id="removeWorldObject (CJ_ARM_CRATE) (19)" radius="2.9247165" interior="0" model="960" lodModel="0" posX="2601.4141" posY="2836.8906" posZ="10.20313" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (gate_autoL) (1)" radius="7.4280729" interior="0" model="986" lodModel="0" posX="2497.6001" posY="2768.1108" posZ="12.06668" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (gate_autoR) (1)" radius="7.3802581" interior="0" model="985" lodModel="0" posX="2497.5701" posY="2775.9822" posZ="12.49926" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
 </map>

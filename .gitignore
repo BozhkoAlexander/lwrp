@@ -1,0 +1,3 @@
+mta_server/mods/deathmatch/backups
+*.log
+mta_server/mods/deathmatch/resource-cache

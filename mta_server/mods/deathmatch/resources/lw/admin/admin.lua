@@ -49,11 +49,10 @@ addEventHandler("admin:login", root, function ( username, password )
 	if (account ~= false) then -- If the account exists.
 		setPlayerName(source, username)
 		logIn(source, account, password) -- Log them in.
-		if isObjectInACLGroup ("user."..account.name, aclGetGroup("Admin")) then
-			executeCommandHandler("debugscript", source, "3")
-			outputDebugString("Logined admin "..account.name)
-			triggerClientEvent(source, "admin:onLogin", source, account)
-		end
+		outputDebugString("Logined "..source.name)
+		local character = exports.lwdb:getPlayer(account.name)
+		character.user = account	
+		triggerEvent("character:onLogin", source, character)
 	else
 		outputChatBox ( "Wrong username or password!", source, 255, 255, 0 ) -- Output they got the details wrong.
 	end

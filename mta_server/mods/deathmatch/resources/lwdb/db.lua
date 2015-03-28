@@ -14,13 +14,18 @@
 	
 local handler = nil
 
-function connect()
-	handler = mysql_connect("localhost", "root", "24Svjatogor93", "lostworldDB") -- Establish the connection
+function connect( res )
+	if (res.name ~= "lwdb") then return end
+	handler = mysql_connect("localhost", "root", "24Svjatogor93", "lwrp") -- Establish the connection
 	if not handler then -- The connection failed
 		outputDebugString("Unable to connect to the MySQL server")
+	else
+		outputDebugString("Connected to MySQL Server")
 	end
 end
 addEventHandler("onResourceStart", getRootElement(), connect)
+
+----------------------OLD PART------------------------------
 
 local function generateSalt()
 	local salt = ""
@@ -151,6 +156,48 @@ function createPlayer(data)
 	]]
 	local query = "insert into `lostworlddb`.`players` (`userId`, `firstName`, `lastName`, `sex`, `posX`, `posY`, `posZ`, `posR`, `skin`, `walkingStyle`) values ('"
 				..data.userId.."', '"..data.firstName.."', '"..data.lastName.."', '"..data.sex.."', '"..data.pos.x.."', '"..data.pos.y.."', '"..data.pos.z.."', '"..data.pos.r.."', '"..data.skin.."', '"..data.wStyle.."');"
+	local result = mysql_query(handler, query)
+	if (not result) then
+		outputDebugString("Error executing the query: ("..mysql_errno(handler)..") "..mysql_error(handler))
+		return false
+	else
+		mysql_free_result(result) -- Freeing the result is IMPORTANT
+		return true
+	end
+end
+
+----------------------------------------------------
+
+function getPlayer( username )
+	--select * from `player` where username like 'Samuel';
+	local query = "select * from `player` where username like '"..username.."';"
+	local result = mysql_query(handler, query)
+	if result then
+		local row = mysql_fetch_row(result)
+		if row then
+			local  character = {}
+			character.id = row[1]
+			character.username = row[2]
+			character.firstname = row[3]
+			character.lastname = row[4]
+			character.gametime = row[5]
+			character.sex = row[6]
+			character.nation = row[7]
+			character.pos = {}
+			character.pos.x = row[8]
+			character.pos.y = row[9]
+			character.pos.z = row[10]
+			character.pos.r = row[11]
+			character.skin = row[12]
+			outputDebugString("Found character "..character.firstname.." "..character.lastname)
+			return character
+		end
+	end
+end
+
+function savePlayerData( playerId, gametime, posX, posY, posZ, posR, skin )
+	--update lwrp.player set gametime = 1, posX = 1682.55, posY = -2327.25, posZ = -2.67, posR = 0, skinId = 183 where playerId = 1;
+	local query = "update lwrp.player set gametime = "..gametime..", posX = "..posX..", posY = "..posY..", posZ = "..posZ..", posR = "..posR..", skinId = "..skin.." where playerId = "..playerId..";"
 	local result = mysql_query(handler, query)
 	if (not result) then
 		outputDebugString("Error executing the query: ("..mysql_errno(handler)..") "..mysql_error(handler))
