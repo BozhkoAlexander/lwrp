@@ -53,6 +53,8 @@ addEventHandler("admin:login", root, function ( username, password )
 		local character = exports.lwdb:getPlayer(account.name)
 		character.user = account	
 		triggerEvent("character:onLogin", source, character)
+		outputDebugString(source.type.." "..source.name)
+		triggerClientEvent(source, "player:onLogin", source, character)
 	else
 		outputChatBox ( "Wrong username or password!", source, 255, 255, 0 ) -- Output they got the details wrong.
 	end

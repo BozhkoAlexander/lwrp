@@ -10,19 +10,26 @@
 ****************************************************************************************************************/
 ]]
 
-local _sa = math.random(0, 21)
+local _sa = math.random(0, 20)
 
-local function setRandomWeather( )
+local function setServerWeather( id )
 	local weatherid, changing = getWeather()
 	outputDebugString("Change  weather from "..weatherid.." to ".._sa)
-	_sa = math.random(0, 21)
-    setWeather( weatherid )
+	_sa = id or math.random(0, 20)
     setWeatherBlended ( _sa )
-    --newId, changing = getWeather()
 end
 
 addEventHandler("onResourceStart", getRootElement(), function ( startedRes )
 	if (getResourceName(startedRes) ~= "lwambient") then return end
-	setWeather ( _sa )
-	Timer(setRandomWeather, 60000 * 5, 0)
+		Timer(setServerWeather, 60000 * 120, 0)
+end)
+
+
+addCommandHandler ( "setWeather", function ( playerSource, command , parameter )
+	setWeather ( parameter )
+end )
+
+addCommandHandler ( "getWeather", function ( playerSource, command , parameter )
+	local weatherid, changing = getWeather()
+	outputDebugString("Weather is "..weatherid)
 end)

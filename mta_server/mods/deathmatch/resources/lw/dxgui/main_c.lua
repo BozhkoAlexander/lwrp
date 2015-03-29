@@ -11,42 +11,19 @@
 ]]
 
 local adminPanel = nil
+local loginPanel = nil
 
-function createAdminPanel( )
+addEvent("player:onLogin", true)
+addEventHandler("player:onLogin", localPlayer, function ( _character )
+	character = _character
+	loginPanel.view:setVisible(false)
+	updateCursor()
+end)
+
+function createLoginPanel( )
 	local panel = {}
 	--------------------
-	local view = DXWindow(250, 50, 350, 400, LWColor.blackTranslucent, LWColor.blue, LWColor.black, "Admin panel")
-	local spawnButton = DXButton(10, 300, 80, 35, LWColor.black, LWColor.blue, LWColor.blue, "Появление")
-	spawnButton:setOnClicked(function ( self )
-		Admin.spawnIncognito()
-	end)
-	view:addSubview(spawnButton)
-
-	local carButton = DXButton(10, 345, 80, 35, LWColor.black, LWColor.blue, LWColor.blue, "Автомобиль")
-	carButton:setOnClicked(function ( self )
-		Admin.getCar()
-	end)
-	view:addSubview(carButton)
-
-	--getHydra
-	local airButton = DXButton(100, 345, 80, 35, LWColor.black, LWColor.blue, LWColor.blue, "Самолет")
-	airButton:setOnClicked(function ( self )
-		Admin.getHydra()
-	end)
-	view:addSubview(airButton)
-
-	local akButton = DXButton(100, 300, 80, 35, LWColor.black, LWColor.blue, LWColor.blue, "АК-74")
-	akButton:setOnClicked(function ( self )
-		Admin.getWeapon(30)
-	end)
-	view:addSubview(akButton)
-
-	local airButton = DXButton(190, 345, 80, 35, LWColor.black, LWColor.blue, LWColor.blue, "Вертолет")
-	airButton:setOnClicked(function ( self )
-		Admin.getVehicle(487)
-	end)
-	view:addSubview(airButton)
-
+	local view = DXWindow(300, 50, 350, 165, LWColor.blackTranslucent, LWColor.blue, LWColor.black, "Login panel")
 	local loginLabel = DXLabel(10, 40, 155, 30, LWColor.blue, "Логин:", nil, nil, "right", "center")
 	view:addSubview(loginLabel)
 	local passLabel = DXLabel(10, 80, 155, 30, LWColor.blue, "Пароль:", nil, nil, "right", "center")
@@ -64,12 +41,54 @@ function createAdminPanel( )
 	end)
 	view:addSubview(loginButton)
 
-	panel.view = view
 	panel.loginLabel = loginLabel
 	panel.loginEdit = loginEdit
 	panel.passLabel = passLabel
 	panel.passEdit = passEdit
 	panel.loginButton = loginButton
+
+	panel.view = view
+
+	table.insert(DXViews, view)
+	return panel
+end
+
+function createAdminPanel( )
+	local panel = {}
+	--------------------
+	local view = DXWindow(300, 50, 350, 165, LWColor.blackTranslucent, LWColor.blue, LWColor.black, "(F3)Admin panel")
+	local spawnButton = DXButton(10, 40, 80, 35, LWColor.black, LWColor.blue, LWColor.blue, "Появление")
+	spawnButton:setOnClicked(function ( self )
+		Admin.spawnIncognito()
+	end)
+	view:addSubview(spawnButton)
+
+	local carButton = DXButton(10, 80, 80, 35, LWColor.black, LWColor.blue, LWColor.blue, "Автомобиль")
+	carButton:setOnClicked(function ( self )
+		Admin.getCar()
+	end)
+	view:addSubview(carButton)
+
+	--getHydra
+	local airButton = DXButton(100, 80, 80, 35, LWColor.black, LWColor.blue, LWColor.blue, "Самолет")
+	airButton:setOnClicked(function ( self )
+		Admin.getHydra()
+	end)
+	view:addSubview(airButton)
+
+	local akButton = DXButton(100, 40, 80, 35, LWColor.black, LWColor.blue, LWColor.blue, "АК-74")
+	akButton:setOnClicked(function ( self )
+		Admin.getWeapon(30)
+	end)
+	view:addSubview(akButton)
+
+	local airButton = DXButton(190, 80, 80, 35, LWColor.black, LWColor.blue, LWColor.blue, "Вертолет")
+	airButton:setOnClicked(function ( self )
+		Admin.getVehicle(487)
+	end)
+	view:addSubview(airButton)
+
+	panel.view = view
 
 	table.insert(DXViews, view)
 	return panel
@@ -80,11 +99,14 @@ addEventHandler("onClientResourceStart", getRootElement(), function ( startedRes
 	bindKeys()
 
 	adminPanel = createAdminPanel()
+	adminPanel.view:setVisible(false)
+	loginPanel = createLoginPanel()
 
 	updateCursor()
 end)
 
 function toggleAdminPanel( )
+	if not character then return end
 	adminPanel.view:setVisible(not adminPanel.view:getVisible())
 	updateCursor()
 end

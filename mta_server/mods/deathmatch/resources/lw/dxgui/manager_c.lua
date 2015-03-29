@@ -70,6 +70,7 @@ addEventHandler("onClientClick", getRootElement(), function ( button, state, abs
 	local pressedView = nil
 	for i,view in ipairs(DXViews) do
 		pressedView = getPressedSubview(view, absoluteX, absoluteY)
+		if pressedView then break end
 	end
 	if pressedView then sendEvent(pressedView, button, state) end
 end )

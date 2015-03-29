@@ -11,6 +11,7 @@
 ]]
 
 Admin = {}
+character = nil
 
 function Admin.spawnIncognito()
 	triggerServerEvent("admin:spawn:incognito", localPlayer)
@@ -37,8 +38,3 @@ function Admin.login( username, password )
 	outputDebugString("Try admin login as "..username.. " with password "..password.."...")
 	triggerServerEvent("admin:login", localPlayer, username, password)
 end
-
-addEvent("admin:onLogin", true)
-addEventHandler("admin:onLogin", root, function ( account )
-	Admin.spawnIncognito()
-end)
